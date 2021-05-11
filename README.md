@@ -52,4 +52,24 @@ and create a new app:
 django-admin startapp <app_name>
 ```
 
+### 6. If you are done working in the virtual environment for the moment, you can deactivate it
+```
+deactivate
+```
 
+------------------------------------------------------------------------------------------------
+# Other things
+### 1) For keeping the current state of the environment packages, run this:
+```
+pip freeze > requirements.txt
+```
+This will create a `requirements.txt` file, which contains a list of all the packages in the current environment.
+
+### 2) If you(or other developer) need to re-create the environment, run this:
+```
+pip install -r requirements.txt
+```
+### 3) To delete a virtual environment, just delete its folder. 
+```
+rm -rf venv
+```
