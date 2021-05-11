@@ -1,4 +1,4 @@
-# django_project_setup
+# Setting up a new Django project
 The right way to start Django app 🙂️
 
 ### 0. Make sure you’ve got Python & pip
